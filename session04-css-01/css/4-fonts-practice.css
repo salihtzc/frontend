@@ -1,0 +1,23 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.menu{
+
+background-color: lightgray;
+width: 96px;
+/* height: 96px; */
+text-align: center;
+font-size: 18px;
+
+}
+
+.aktif{
+
+background-color: black;
+color: white;
+font-family: 'Oleo Script Swash Caps', cursive ;
+/* font-style: oblique; */
+font-style: italic;
+}
