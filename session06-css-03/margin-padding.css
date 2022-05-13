@@ -1,0 +1,25 @@
+.btn{
+background-color: beige;
+margin:1rem;
+padding:1rem 1rem;
+}
+
+.btn:last-child{
+    margin-bottom:3rem;
+}
+
+.span-btn{
+    background-color: burlywood;
+    padding:1rem;
+    display: inline-block;
+}
+
+.new-btn{
+background-color:red;
+padding:2rem 1rem;
+margin-top:5rem;
+width:20vw ;
+margin: auto;
+text-align: center;
+}
+

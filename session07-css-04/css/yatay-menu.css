@@ -1,0 +1,46 @@
+.yatay-menu ul{
+list-style-type: none;
+
+}
+
+.yatay-menu ul li{
+background-color: bisque;
+text-align: center;
+display: inline-block;
+width: 8rem;
+height: 5rem;
+margin: 1rem;
+}
+
+a{
+padding: 1rem;
+text-decoration: none;
+background-color: red;
+display: inline-block;
+width: 6rem;
+}
+
+
+/** active kullanmak istiyorsak ya hoverdan sonra yazacagiz ya da spesifik selector yapicaz(basina li koymak gibi) */
+li a:active{
+color: red;
+}
+
+a:hover{
+background-color: coral;
+color: white;
+}
+
+
+/*? Acilir Menu */
+
+.acilir-menu ul{
+display:none;
+}
+
+.acilir-menu:hover ul{
+display: block;
+}
+.acilir-menu:active ul{
+display: block;
+}
