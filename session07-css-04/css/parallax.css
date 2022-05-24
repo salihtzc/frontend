@@ -1,0 +1,23 @@
+.bg{
+height: 70vh;
+background-size: cover;
+  /* ekran büyükken ekranı tamamen sar, kapla,gerekirse kırp */
+
+  background-attachment:fixed;
+  /* parallax effect ini veren komut */
+  background-position:top center;
+  /* tepesini göster ortala */
+  /* center center:resim tam ortalansın ekran büyüdükçe resim büyümesin alt üst ortalı gözüksün, top = tepesi çok gözüksün, bottom= alt tarafı çok gözüksün */
+}
+
+
+.image1{
+background-image:url("../img/monalisa.jpg");
+
+}
+
+.image2{
+background-image:url(https://cdn1.ntv.com.tr/gorsel/bK43k5KBW0yE9a2rC57ptQ.jpg?width=960&mode=crop&scale=both);
+
+}
+
